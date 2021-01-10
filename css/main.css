@@ -1169,7 +1169,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #b08722;
+  background: #ffbd25;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2446,7 +2446,7 @@ ul.breadcrumb li + li:last-child {
   padding: initial;
 }
 .post-block {
-  background: var(--content-bg-color);
+  background: rgba(255,255,255,0.8);
   border-radius: initial;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
   padding: 40px;
@@ -2565,7 +2565,7 @@ ul.breadcrumb li + li:last-child {
   }
 }
 body {
-  background: url("D:Blogimageseiffel.png");
+  background: url("/images/background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
